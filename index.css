@@ -1,0 +1,120 @@
+*{
+    margin: 0;padding: 0; box-sizing: border-box; font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+    
+    width: 100%;
+}
+.die{
+    display: flex; 
+}
+
+body {
+    background-color: #360a26;
+    margin: 0;padding-bottom: 10%;
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color:white;
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 20%;
+}
+
+.bottom h2 {
+    /* padding-top: 30px; */
+    font-size: 2rem;
+}
+
+.butn {
+    background: #f5ecf2;
+    font-family: "Indie Flower", cursive;
+    border-radius: 7px;
+    color: black;
+    font-size: 2rem;
+    padding: 16px 25px;
+    text-decoration: none;
+}
+
+.butn:hover {
+    background: #812943;
+    text-decoration: none;
+}
+.butns {
+    background: #f5ecf2;
+    font-family: "Indie Flower", cursive;
+    border-radius: 7px;
+    color: red;
+    font-size: 1rem;
+    /* padding: 10px 15px; */
+    text-decoration: none;
+}
+
+.butns:hover {
+    background: #c2738a;
+    text-decoration: none;
+    color: white;
+}
+.result{ height: 150px; width: 60%; margin-left: 20%; 
+background-color: black; box-shadow:-5px 5px 5px 0 rgb(92, 91, 91); 
+border-radius: 20px;
+}
+.result h1{padding-bottom: 1%;
+    color: white;font-size: medium;
+}
+.feed{
+    font-size: 4rem;
+}
+.buttons{
+    display: flex; justify-content:center ; align-items: center;
+}
+.maino{text-align: center;padding-top: 5%;
+     height: 700px; width: 100%; 
+}
+.selections{
+    display: flex; text-align: center;
+}
+.red{
+    background-color: red; height: 100px; width: 5%;border-radius: 90px;padding: 85px;border: none;
+}
+.yellow{
+    background-color: yellow;height: 100px; width: 10%;border-radius: 90px;padding: 85px;border: none;
+}
+.blue{
+    background-color: blue;height: 100px; width: 10%;border-radius: 90px;padding: 85px;border: none;
+}
+.green{
+    background-color: green;height: 100px; width: 10%;border-radius: 90px;padding: 85px;border: none;
+}
+a{
+    text-decoration: none; color: black;
+}
+h4{
+    font-size: 2rem;color: white;
+}
+input:hover{
+border:5px solid white;
+}
+.result h3{
+    color: white; font-size: 1rem;
+}
